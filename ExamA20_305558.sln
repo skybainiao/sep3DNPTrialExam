@@ -4,6 +4,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthorAPI", "AuthorAPI", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorAPI", "AuthorAPI\AuthorAPI.csproj", "{1154A957-8A3E-4AE2-A029-C1E2583864F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthorBlazor", "AuthorBlazor", "{4D08C046-221D-433B-A451-328C90A41DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorBlazor", "AuthorBlazor\AuthorBlazor.csproj", "{8A758D2D-FFEC-4E13-99BA-7C7FF9153418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +18,13 @@ Global
 		{1154A957-8A3E-4AE2-A029-C1E2583864F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1154A957-8A3E-4AE2-A029-C1E2583864F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1154A957-8A3E-4AE2-A029-C1E2583864F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A758D2D-FFEC-4E13-99BA-7C7FF9153418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A758D2D-FFEC-4E13-99BA-7C7FF9153418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A758D2D-FFEC-4E13-99BA-7C7FF9153418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A758D2D-FFEC-4E13-99BA-7C7FF9153418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1154A957-8A3E-4AE2-A029-C1E2583864F7} = {FF8F4DD5-CB3F-4C1B-9269-0256369933B3}
+		{8A758D2D-FFEC-4E13-99BA-7C7FF9153418} = {4D08C046-221D-433B-A451-328C90A41DDE}
 	EndGlobalSection
 EndGlobal
