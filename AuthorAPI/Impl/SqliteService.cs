@@ -10,7 +10,7 @@ namespace AuthorAPI.Impl
     public class SqliteService
     {
 
-        private DBContext _dbContext = new DBContext();
+        private DBContext _dbContext =  new DBContext();
         
         public SqliteService(DBContext dbContext)
         {
